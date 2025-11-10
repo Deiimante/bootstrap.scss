@@ -3,19 +3,56 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SASS demo</title>
+        <title>SASS</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body class="bg-light">
         <div class="container">
-       <section class="todo">
-        <ul class= "todo__list">
-            <li class="todo__ithem"> Learn html</li>
-            <li class="todo__ithem">akjsh</li>
-            <li class="todo__ithem">dsfjkl</li>
-        </ul>
-     </section>
-     </div>
-        
+            <section class="todo">
+                <header class="todo__header">
+                    <h1 class="todo__header-title">Mano uzduotys</h1>
+                    <p class="todo__header-subtitle">Example BEM + Bootstrap</p>
+                </header>
+                <!--List -->
+                <ul class="todo__list">
+                    <li class="todo__item">
+                        <input type="checkbox" class="todo__item-check" id="t1">
+                        <label for="t1" class="todo__item-label">Mokytis HTML</label>
+                        <span class="todo__item-badge">Siandien</span>
+                        <div class="todo__item-actions">
+                            <button class="btn btn-sm btn-complete">Atlikta</button>
+                            <button class="btn btn-sm btn-delete">Salinti</button>
+                        </div>
+                    </li>
+                    <li class="todo__item">
+                        <input type="checkbox" class="todo__item-check" id="t2">
+                        <label for="t1" class="todo__item-label">Mokytis HTML</label>
+                        <span class="todo__item-badge">Siandien</span>
+                        <div class="todo__item-actions">
+                            <button class="btn btn-sm btn-complete">Atlikta</button>
+                            <button class="btn btn-sm btn-delete">Salinti</button>
+                        </div>
+                    </li>
+                    <li class="todo__item">
+                        <input type="checkbox" class="todo__item-check" id="t3">
+                        <label for="t1" class="todo__item-label">Mokytis HTML</label>
+                        <span class="todo__item-badge">Siandien</span>
+                        <div class="todo__item-actions">
+                            <button class="btn btn-sm btn-complete">Atlikta</button>
+                            <button class="btn btn-sm btn-delete">Salinti</button>
+                        </div>
+                    </li>
+                    <li class="todo__item">
+                        <input type="checkbox" class="todo__item-check" id="t4">
+                        <label for="t1" class="todo__item-label">Mokytis HTML</label>
+                        <span class="todo__item-badge">Siandien</span>
+                        <div class="todo__item-actions">
+                            <button class="btn btn-sm btn-complete">Atlikta</button>
+                            <button class="btn btn-sm btn-delete">Salinti</button>
+                        </div>
+                    </li>
+                </ul>
+        </section>
+        </div>
     </body>
 </html>
